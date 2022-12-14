@@ -1,0 +1,154 @@
+.section__wrapper{
+    display: flex;
+    padding: 40px 20px;
+    background-color: #F7F7F7;
+    width: 95%;
+    height: 414px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    justify-content: space-around;
+    position: relative;
+    
+}
+.section__wrapper > img {
+    height: 455px;
+    width: 36%;
+    object-fit: fill;
+    z-index: 10;
+    position: absolute;
+    left: 10%;
+    top: -5%;
+
+}
+.section__wrapper > div{
+    width: 40%;
+    height: 314px;
+    margin-left: 500px;
+}
+
+.section__right > h3{
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.section__right > p{
+    font-size: 18px;
+}
+.section__right > div> img{
+    width: 112px;
+    height: 112px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.section__right > div{
+    margin: 30px 0;
+}
+.section__right > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data__container{
+    max-width: 1360px;
+    margin: 0 auto;
+    border: 1.5px solid #ECECEC;
+    display: flex;
+    margin-bottom: 30px;
+    height: 222px;
+    padding: 25px 20px;
+
+}
+
+.section__title{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.data__container > div{
+    width: 220px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border-left: 1.5px solid #ECECEC;
+}
+
+.data__container > div:nth-child(1){
+    border: none;
+}
+
+.data__container > div > p{
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+
+.data__container > div > img{
+    width: 41px;
+    height: 41px;
+    object-fit: fill;
+    margin: 20px 0;
+}
+
+.data__container__media{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1100px){
+    .data__container > div > p{
+        font-size: 11px;
+    }
+    .data__container > div > h4{
+        font-size: 14px !important;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width: 1050px){
+
+     .section__wrapper{
+        display: none;
+     }
+    .sectionTwo{
+        padding: 30px;
+    }
+
+
+    .data__container{
+        display: none;
+    }
+
+    .data__container__media{
+        display: block;
+        max-width: 973px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 1.5px solid #ECECEC;
+        height: 204px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .data__container__media >h4{
+        font-size: 16px;
+        margin: 20px 0;
+
+    }
+    .data__container__media p{
+        font-size: 13px;
+        width: 235px;
+        text-align: center;
+    }
+}

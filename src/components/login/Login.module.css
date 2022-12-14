@@ -1,0 +1,137 @@
+.login__inner{
+    display: none;
+}
+
+
+.login__wrapper{
+    width: 520px;
+    height: 420px;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 12;
+    background-color: #fff;
+    left: 35%;
+    top: 20%;
+    display: block;
+}
+
+
+.login__top{
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0px;
+    padding-right: 25px;
+    background-color: #ECECEC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.login__close{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid rgba(201, 200, 200, 0.374);
+    border-radius: 50%;
+}
+
+.login__top > div{
+    display: flex;
+}
+
+.login__top > div > div{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20.5px 25px;
+    
+}
+
+.enter{
+    /* background-color: #fff; */
+    border-top-left-radius: 10px;
+    
+}
+
+.login__input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+
+.login__input > button{
+    width: 400px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FBC000;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.login__input  > input{
+    width: 400px;
+    height: 48px;
+    padding: 0 20px;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.18);
+    border-radius: 10px;
+    margin-bottom: 6%;
+    font-size: 15px;
+}
+
+.signin__input  > input{
+    width: 400px;
+    height: 48px;
+    padding: 0 20px;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.18);
+    border-radius: 10px;
+    margin-bottom: 6%;
+    font-size: 15px;
+}
+
+.login__wrapper > p{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(44, 44, 245);
+}
+
+.signin__input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+.signin__input > input{
+    width: 400px;
+    height: 48px;
+    border: 1px solid rgba(128, 128, 128, 0.18);
+    border-radius: 10px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.signin__input > button{
+    width: 400px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FBC000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.login__dn{
+    display: none;
+}
+
+
+.signin__dn{
+    display: none;
+}

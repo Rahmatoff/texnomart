@@ -1,0 +1,135 @@
+
+.pdp__page{
+    padding: 0 30px;
+}
+
+.pdp__title> h2{
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+
+.pdp__main{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.pdp__img{
+    width: 40%;
+    height: 450px;
+    margin-right: 42px;
+    object-fit: cover;
+}
+
+.about__product{
+    width: 30%;
+    margin-right: 40px;
+}
+.pdp__right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.pdp__price{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.basket__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 302px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFC303;
+    margin-top: 20px;
+}
+
+.pdp__basket{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.basket__wrapper > span{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 302px;
+    height: 52px;
+    border: 2px solid #FFC303;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pdpPayment{
+    width: 342px;
+    height: 140px;
+    padding: 20px 0;
+}
+
+.pdpPayment > span{
+    width: 302px;
+    height: 32px;
+    background-color: #f4f4f4f4;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+
+.pdp__title{
+    padding: 20px 0;
+    border-bottom: 1px solid #E5E5E7;
+}
+
+.pdpPayment > p{
+   width: 302px;
+   height: 52px;
+   background-color: #333333;
+   color: #fff;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   font-weight: 700;
+   margin-top: 20px;
+}
+
+.pdpPayment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pdpPayment > span{
+    padding: 5px 20px;
+}
+
+.title__mark{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+
+.titles{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.title__mark > div{
+    display: flex;
+    align-items: center;
+}

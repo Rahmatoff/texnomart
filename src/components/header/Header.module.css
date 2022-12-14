@@ -1,0 +1,535 @@
+.header__inner{
+    margin-bottom: 15px;
+    background-color: #ECECEC;
+}
+
+
+.header__top{
+    display: flex;
+    max-width: 1440px;
+    height: 36px;
+    padding: 0 25px;
+    background-color: #333333;
+    align-items: center;
+}
+
+.site__info{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.site__info > div{
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+
+}
+
+.site__info > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.site__info > ul> li{
+    font-size: 13px;
+    color: #fff;
+}
+
+.location{
+    font-size: 13px;
+    color: #fff ;
+}
+
+
+.location__icon{
+    font-size: 20px;
+    color: #fff;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    width: 245px;
+    justify-content: space-between;
+}
+
+.contacts > span{
+    font-size: 12px;
+    color: #fff;
+}
+
+.phone__icon{
+    font-size: 18px;
+    color: #fff;
+}
+
+.contacts > a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.language__select{
+    width: 330px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    justify-content: space-between;
+   
+}
+
+.language__select > div{
+    display: flex;
+    align-items: center;
+}
+
+
+.language__select > div >select{
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+}
+
+.header__icons{
+    color: white;
+}
+
+
+
+
+.logo{
+    display: none;
+}
+
+
+/* main header */
+
+
+.header__main{
+    display: flex;
+    height: 80px;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+
+}
+
+.header__main > form {
+    display: flex;
+    align-items: center;
+    min-width: 180px;
+    width: 100%;
+}
+
+.header__main > form > input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border: 2px solid #fbc100;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px;
+
+}   
+
+.header__main > form > button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border: 2px solid #fbc100;
+    background-color: #fbc100;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px
+
+}
+
+.header__iconn{
+    width: 24px;
+    height: 23px;
+}
+
+.header__item{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+
+
+.contact__none{
+    display: none;
+}
+
+.header__item > a > span{
+    font-size: 14px;
+}
+
+
+/* header bottom */
+
+
+.header__bottom{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 25px;
+    height: 54px;
+    align-items: center;
+}
+
+
+.header__bottom > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 60%;
+}
+
+
+
+
+
+.header__bottom > ul > li{
+    font-size: 14px;
+}
+
+.katalog{
+    display: flex;
+    padding: 10px 16px;
+    background-color: #fbc100;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+}
+
+
+.katalig__icon{
+
+    font-size: 22px;
+}
+
+
+.katalig__wrapper{
+    width: 38px;
+    height: 38px;
+    padding: 8px ;
+    background-color: #fbc100;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: none;
+}
+
+.katalog__wrapper{  
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog{
+    font-size: 16px;
+    font-weight: 600;
+}
+.header__menu{
+    font-size: 25px;
+    margin-right: 5%;
+}
+.sale__wrapper{
+    display: flex;
+    align-items: center;
+    color: #fbc100;
+    background-color: #111;
+    border-radius: 8px;
+    padding: 5px 5px;
+}
+
+.header__sale{
+    font-size: 22px;
+    color:  #fbc100;
+}
+
+.fire__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.fire{
+    font-size: 23px;
+    color: red;
+}
+
+.basketIcon{
+    position: relative;
+    
+}
+
+.sevimlilar{
+    position: relative;
+}
+
+.likesNum{
+    position: absolute;
+    right: 30%;
+    top: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color:  #fbc100;
+    z-index: 10;
+
+}
+
+.basketNum{
+    position: absolute;
+    right: 30%;
+    top: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color:  #fbc100;
+    z-index: 10;
+}
+
+.basketIcon{ 
+    width: 115px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sevimlilar{
+    width: 115px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kirish{
+    width: 115px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contact__none{
+    display: none !important;
+}
+
+
+
+@media only screen and (max-width: 1310px){
+    .header__top{
+        display: flex;
+        max-width: 1310px;
+        height: 36px;
+        padding: 0 25px;
+        background-color: #333333;
+        align-items: center;
+    }
+
+
+    .header__item{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+    }
+
+
+    .sale__wrapper{
+        display: flex;
+        align-items: center;
+        color: #fbc100;
+        background-color: #111;
+        border-radius: 8px;
+        padding: 5px 5px;
+        font-size: 14px;
+    }
+
+    .header__bottom > ul > li{
+        font-size: 13px;
+    }
+
+    .fire__wrapper{
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .katalog__wrapper{  
+         width: 18;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 1240px){
+    .kirish > span{
+        display: none;
+    }
+
+    .kirish{
+        width: 34px;
+        height: 34px;
+        
+    }
+    
+    .sevimlilar > span{
+        display: none;
+    }
+
+    .sevimlilar{
+        width: 34px;
+        height: 34px;
+        
+    }
+
+    .basketIcon > span{
+        display: none;
+    }
+
+    .basketIcon{
+        width: 34px;
+        height: 34px;
+    }
+
+    .header__item{
+        display: flex;
+        justify-content: space-between;
+        min-width: 25%;
+        margin-left: 20px;
+    }
+
+    .site__info{
+        width: 60%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1020px){
+    .site__info > ul{
+        display: none;
+    }
+
+   
+    .contacts > span{
+        display: none;
+    }
+    
+    .header__top{
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        height: 48px;
+    }
+    .header__item{
+        display: none;
+    }
+    .headerlogo{
+        display: none;
+    }
+
+    .logo{
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    .logo > img{
+        width: 152px;
+        height: 25px;
+    }
+
+    .location {
+        color: #111;
+    }
+
+    .lang_sal{
+        display: none !important;
+    }
+
+    .location__icon{
+        color : #111;
+    }
+
+    .contacts > a{
+        color: #111 !important;
+        font-size: 14px;
+    }
+
+    .header__bottom{
+        display: none;
+    }
+    .contacts{
+        width: 135px ;
+    }
+    
+    .lang_sal{
+        display: none;
+    }
+
+    .language__select{
+        width: 150px;
+        margin-left: 27%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+       
+    .site__info{
+        display: none;
+    }
+    
+        .contacts{
+            width: 35px ;
+        } 
+        
+        
+        .contacts > a{
+            display: none;
+        }
+
+        .contact__none{
+            display: flex !important;
+            align-items: center;
+        }
+
+        .logo{
+            margin: 0;
+        }
+
+        .language__select{
+            max-width: 123px;
+            margin-left: 10%;
+        }
+
+        .phone__icon{
+            font-size: 16px;
+            margin-left: 10px;
+            color: #111;
+        }
+
+        .katalig__wrapper{
+            display: block;
+        }
+}

@@ -1,0 +1,111 @@
+.Logos__swiper{
+    padding: 0 30px;
+    margin-top: 25px;
+}
+
+.logo__wrapper{
+    width: 151px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 12px
+}
+
+.logos{
+    width: 70px;
+    height: 25px;
+}
+
+.swiper-button-prev{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.9;
+}
+.swiper-button-next{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+.swiper-button-prev::after{
+   font-size: 20px;
+   color: #9D9D9D;
+}
+
+.swiper-button-next::after{
+    font-size: 20px;
+    color: #9D9D9D;
+ }
+
+
+.devices__wrapper{
+    width: 211px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 24px;
+ 
+
+}
+
+.devices__img{
+    width: 44px;
+    height: 44px;
+
+}
+
+.devices__wrapper > span{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+
+.Logos-swiper-for-ipad{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px){
+    .Logos-swiper-for-ipad{
+        display: block;
+        min-width: 300px;
+    }
+
+
+
+    .Logos__swiper{
+        display: none;
+    }
+
+    .devices__wrapper{
+        flex-direction: column;
+        height: 112px;
+    }
+
+    .hero__mySwiper{
+        overflow-y: hidden;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .devices__wrapper > span{
+        font-size: 11px;
+    }
+}
+
